@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+  <title>Slide Show</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="./css/slide-show.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="slide-show__cloak">
+
+  <nav class="slide-show__nav">
+    <a href="one"><span>One</span></a>
+    <a href="two"><span>Two</span></a>
+    <a href="three"><span>Three</span></a>
+    <a href="four"><span>Four</span></a>
+    <a href="five"><span>Five</span></a>
+  </nav>
+
+  <div class="slide-show__slides">
+    <section data-id="one" class="one">
+      <h1>1</h1>
+    </section>
+
+    <section data-id="two" class="two">
+      <h1>2</h1>
+    </section>
+
+    <section data-id="three" class="three">
+      <h1>3</h1>
+    </section>
+
+    <section data-id="four" class="four">
+      <h1>4</h1>
+    </section>
+
+    <section data-id="five" class="five">
+      <h1>5</h1>
+    </section>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script>
+  <script src="./js/slide-show.js"></script>
+  <script src="./js/script.js"></script>
+
+</body>
+</html>
