@@ -1,0 +1,25 @@
+html {
+  background: black;
+  color: rgba(white, 0.5);
+  font-weight: 300;
+  font-size: 16px;
+  font-family: sans-serif;
+  line-height: 1.6;
+}
+
+h1 {
+  font-weight: 200;
+  font-size: 40px;
+}
+
+.slide-show__slides section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.one { background: #2c3e50; }
+.two { background: #16a085; }
+.three { background: #27ae60; }
+.four { background: #2980b9; }
+.five { background: #8e44ad; }
